@@ -3,8 +3,8 @@ source "https://rubygems.org"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.2.2"
 
-# Use sqlite3 as the database for Active Record
-gem "sqlite3", ">= 1.4"
+# Use the PostgreSQL database for Active Record
+gem "pg", ">= 1.1"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
@@ -33,16 +33,6 @@ group :test do
 end
 
 gem 'dotenv-rails', groups: [:development, :test]
-
-# Commented out gems for optional features or unused features
-# gem "jbuilder" # For JSON APIs
-# gem "redis", ">= 4.0.1" # Redis adapter for Action Cable
-# gem "kredis" # Higher-level data types in Redis
-# gem "bcrypt", "~> 3.1.7" # For secure password hashing
-# gem "image_processing", "~> 1.2" # Active Storage variants support
-
-# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS)
-# gem "rack-cors"
 
 
 
