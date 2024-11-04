@@ -76,8 +76,8 @@ Rails.application.configure do
     address: "smtp.gmail.com", # O el servidor SMTP de tu proveedor de correo
     port: 587,
     domain: "localhost", # Puede ser tu dominio o localhost para desarrollo
-    user_name: "equipo.tudestino@gmail.com", # Reemplaza con tu dirección de correo electrónico
-    password: "skevjfzrhuhkgaaz", # Reemplaza con tu contraseña o un token de aplicación
+    user_name: ENV['SMTP_USERNAME'], # Reemplaza con tu dirección de correo electrónico
+    password: ENV['SMTP_PASSWORD'], # Reemplaza con tu contraseña o un token de aplicación
     authentication: "plain",
     enable_starttls_auto: true
 }

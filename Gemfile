@@ -32,6 +32,8 @@ group :test do
   gem "mocha"
 end
 
+gem 'dotenv-rails', groups: [:development, :test]
+
 # Commented out gems for optional features or unused features
 # gem "jbuilder" # For JSON APIs
 # gem "redis", ">= 4.0.1" # Redis adapter for Action Cable
