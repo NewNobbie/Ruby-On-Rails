@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gem "rails", "~> 7.2.2"
 
 # Use the PostgreSQL database for Active Record
-gem "pg", "~> 1.5.3"
+gem "pg", "~> 1.5.9"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
