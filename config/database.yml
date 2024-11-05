@@ -32,5 +32,4 @@ production:
   database: a2_o1d6
   username: a3
   password: <%= ENV["TEST_API_PRODUCTION_DATABASE_PASSWORD"] %>
-  url: <%= ENV['DATABASE_URL'] %>
 
