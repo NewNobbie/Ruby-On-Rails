@@ -76,6 +76,8 @@ GEM
     base64 (0.2.0)
     benchmark (0.3.0)
     bigdecimal (3.1.8)
+    bootsnap (1.18.4)
+      msgpack (~> 1.2)
     brakeman (6.2.2)
       racc
     builder (3.3.0)
@@ -116,6 +118,7 @@ GEM
     minitest (5.25.1)
     mocha (2.5.0)
       ruby2_keywords (>= 0.0.5)
+    msgpack (1.7.3)
     net-imap (0.5.0)
       date
       net-protocol
@@ -239,6 +242,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  bootsnap
   brakeman
   debug
   dotenv-rails

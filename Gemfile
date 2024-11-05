@@ -13,9 +13,14 @@ gem "puma", ">= 5.0"
 gem "tzinfo-data", platforms: %i[windows jruby]
 
 # Reduces boot times through caching; required in config/boot.rb
-# gem "bootsnap", require: false
+gem "bootsnap", require: false
 
-# Development and Test groups
+# Use rails_12factor for Heroku-like environments
+gem "rails_12factor", group: :production
+
+# Environment variable management
+gem 'dotenv-rails', groups: [:development, :test]
+
 group :development, :test do
   # Debugging tool for Rails
   gem "debug", platforms: %i[mri windows], require: "debug/prelude"
@@ -32,9 +37,6 @@ group :test do
   gem "mocha"
 end
 
-gem "rails_12factor", group: :production
-
-gem 'dotenv-rails', groups: [:development, :test]
 
 
 
