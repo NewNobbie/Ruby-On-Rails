@@ -1,6 +1,8 @@
 require_relative "boot"
 
 require "rails/all"
+require 'sprockets/railtie' #Help to load sprockets
+
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
