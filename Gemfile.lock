@@ -102,7 +102,7 @@ GEM
     irb (1.14.1)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    json (2.7.5)
+    json (2.7.6)
     language_server-protocol (3.17.0.3)
     logger (1.6.1)
     loofah (2.23.1)
@@ -131,13 +131,10 @@ GEM
     nio4r (2.7.4)
     nokogiri (1.16.7-x64-mingw-ucrt)
       racc (~> 1.4)
-    nokogiri (1.16.7-x86_64-linux)
-      racc (~> 1.4)
     parallel (1.26.3)
-    parser (3.3.5.1)
+    parser (3.3.6.0)
       ast (~> 2.4.1)
       racc
-    pg (1.5.9)
     pg (1.5.9-x64-mingw-ucrt)
     psych (5.1.2)
       stringio
@@ -202,7 +199,7 @@ GEM
       rubocop-ast (>= 1.32.2, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 3.0)
-    rubocop-ast (1.33.1)
+    rubocop-ast (1.34.0)
       parser (>= 3.3.1.0)
     rubocop-minitest (0.36.0)
       rubocop (>= 1.61, < 2.0)
@@ -223,16 +220,9 @@ GEM
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
     securerandom (0.3.1)
-    sprockets (4.2.1)
-      concurrent-ruby (~> 1.0)
-      rack (>= 2.2.4, < 4)
-    sprockets-rails (3.5.2)
-      actionpack (>= 6.1)
-      activesupport (>= 6.1)
-      sprockets (>= 3.0.0)
     stringio (3.1.1)
     thor (1.3.2)
-    timeout (0.4.1)
+    timeout (0.4.2)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2024.2)
@@ -246,7 +236,6 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
-  x86_64-linux
 
 DEPENDENCIES
   bootsnap
@@ -259,7 +248,6 @@ DEPENDENCIES
   rails (~> 7.2.2)
   rails_12factor
   rubocop-rails-omakase
-  sprockets-rails
   tzinfo-data
 
 BUNDLED WITH
